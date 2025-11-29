@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Run LWJGL Game",
+      "request": "launch",
+      "mainClass": "Main",
+      "cwd": "${workspaceFolder}",
+      "vmArgs": "-Djava.library.path=${workspaceFolder}/lib",
+      "classPaths": [
+        "${workspaceFolder}/bin",
+        "${workspaceFolder}/lib/lwjgl.jar",
+        "${workspaceFolder}/lib/lwjgl-opengl.jar",
+        "${workspaceFolder}/lib/lwjgl-glfw.jar",
+        "${workspaceFolder}/lib/lwjgl-stb.jar",
+        "${workspaceFolder}/lib/lwjgl-natives-windows.jar",
+        "${workspaceFolder}/lib/lwjgl-opengl-natives-windows.jar",
+        "${workspaceFolder}/lib/lwjgl-glfw-natives-windows.jar",
+        "${workspaceFolder}/lib/lwjgl-stb-natives-windows.jar"
+      ]
+    }
+  ]
+}
